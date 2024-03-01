@@ -183,45 +183,153 @@ body{
 
 .card{
     
-    width: 15rem;
-    height: auto;
-    background: var(--primary-Very-Dark-Magenta);
+   width: 14rem;
+   height: auto;
+   background: var(--primary-Very-Dark-Magenta);
    border-radius: 5px; 
    margin: 25px 0 0 93px;
+   position: relative;
+   top: 7px;
+   left: 8px;
 }
 
 .card-body{
-    display: flex;
-    padding: 16px;
+   display: flex;
+   padding: 16px;
 }
 
 .img-card-top{
-    border-radius: 50%;
-    position: relative;
-    top: 25px;
-    left: 16px;
-    height: 43px;
+   border-radius: 50%;
+   position: relative;
+   top: 25px;
+   left: 16px;
+   height: 43px;
 }
 
 .card-name{
-    position: relative;
-    top: -13px;
-    left: 72px;
-    display: inline;
-    color: var(--neutral-White);
+   font-size: 11px;
+   position: relative;
+   top: -13px;
+   left: 69px;
+   display: inline;
+   color: var(--neutral-White);
 }
 
 .card-desc{
-    display: inline;
+    font-size: 11px;
+    display: inline-block;
     position: relative;
-    left: -6px;
+    left: -3px;
     top: 3px;
     color: var(--primary-Soft-Pink);
 
 }
 
 .card-text{
-    font-size: 12px;
+    font-size: 11px;
+    font-family: 'League Spartan';
+    color:var(--Light-Grayish-Magenta) ;
+
+}
+
+.card1{
+    
+   width: 14rem;
+   height: auto;
+   background: var(--primary-Very-Dark-Magenta);
+   border-radius: 5px; 
+   margin: 25px 0 0 93px;
+   position: relative;
+   top: -170px;
+   left: 249px;
+}
+
+.card-body1{
+   display: flex;
+   padding: 16px;
+}
+
+.img-card-top1{
+   border-radius: 50%;
+   position: relative;
+   top: 25px;
+   left: 16px;
+   height: 43px;
+}
+
+.card-name1{
+   font-size: 11px;
+   position: relative;
+   top: -13px;
+   left: 69px;
+   display: inline;
+   color: var(--neutral-White);
+}
+
+.card-desc1{
+    font-size: 11px;
+    display: inline-block;
+    position: relative;
+    left: -3px;
+    top: 3px;
+    color: var(--primary-Soft-Pink);
+
+}
+
+.card-text1{
+    font-size: 11px;
+    font-family: 'League Spartan';
+    color:var(--Light-Grayish-Magenta) ;
+
+}
+
+
+.card2{
+    
+   width: 14rem;
+   height: auto;
+   background: var(--primary-Very-Dark-Magenta);
+   border-radius: 5px; 
+   margin: 25px 0 0 93px;
+   position: relative;
+   top: -347px;
+   left: 490px;
+}
+
+.card-body2{
+   display: flex;
+   padding: 16px;
+}
+
+.img-card-top2{
+   border-radius: 50%;
+   position: relative;
+   top: 25px;
+   left: 16px;
+   height: 43px;
+}
+
+.card-name2{
+   font-size: 11px;
+   position: relative;
+   top: -13px;
+   left: 69px;
+   display: inline;
+   color: var(--neutral-White);
+}
+
+.card-desc2{
+    font-size: 11px;
+    display: inline-block;
+    position: relative;
+    left: -3px;
+    top: 3px;
+    color: var(--primary-Soft-Pink);
+
+}
+
+.card-text2{
+    font-size: 11px;
     font-family: 'League Spartan';
     color:var(--Light-Grayish-Magenta) ;
 
