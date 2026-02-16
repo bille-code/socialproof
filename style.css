@@ -23,20 +23,6 @@
   font-family: "League Spartan", sans-serif;
 }
 
-/*  
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-*/
-/* .attribution { */
-/*   font-size: 11px; */
-/*   text-align: center; */
-/* } */
-/**/
-/* .attribution a { */
-/*   color: hsl(228, 45%, 44%); */
-/* } */
-/**/
 
 body {
   background-image: url(./images/bg-pattern-top-mobile.svg),
@@ -162,23 +148,9 @@ body {
   margin-bottom: 30px;
 }
 
+/*Media Query Desktop */
+
 @media (min-width: 768px) {
-  .card-all {
-    display: flex;
-    align-self: flex-start;
-    width:100%;
-
-  }
-
-
-.card-all article:nth-child(2){
-    margin-top: 20px;
-  }
-
-  .card-all article:nth-child(3){
-    margin-top: 40px;
-  }
-
   body {
     background-image: url(./images/bg-pattern-top-desktop.svg),
       url(./images/bg-pattern-bottom-desktop.svg);
@@ -187,55 +159,65 @@ body {
       bottom right;
   }
 
-  .top-section{
+  .card-all {
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+  }
 
+  .card-all article:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .card-all article:nth-child(3) {
+    margin-top: 40px;
+  }
+
+  t
+  top-section {
     display: flex;
     flex-direction: row;
     padding: 90px;
   }
 
-  .star-desk{
-    width:100%;
+  .star-desk {
+    width: 100%;
     margin-left: -35px;
-    display:flex;
+    display: flex;
     flex-direction: column;
   }
 
-  .love-prod{
-  max-width: 450px;
+  .love-prod {
+    max-width: 450px;
   }
 
-  .text-provide{
-    font-size: .9em;
+  .text-provide {
+    font-size: 0.9em;
   }
 
-  .star{
+  .star {
     display: flex;
     flex-direction: row;
     width: 80%;
     padding: 21px 13px;
   }
 
-  .star:nth-child(2){
+  .star:nth-child(2) {
     align-self: center;
   }
-  .star:nth-child(3){
+
+  .star:nth-child(3) {
     align-self: self-end;
   }
 
-  .star-mv{
+  .star-mv {
     display: flex;
     align-items: center;
   }
 
-  
-  .rate-text{
+  .rate-text {
     display: flex;
     justify-content: flex-start;
     margin-left: 21px;
   }
-
-
-
-
 }
